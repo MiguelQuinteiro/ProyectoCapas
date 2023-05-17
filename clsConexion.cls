@@ -23,9 +23,9 @@ Public Function Conectar(ByVal pBaseDato As String) As Boolean
   On Error GoTo Error
   Set cnn = New ADODB.Connection
 
-  cnn.Open "Provider=SQLOLEDB.1;Password=" & "Password1" & _
-           ";Persist Security Info=False;User ID=" & "sa" & _
-           ";Initial Catalog=BaseImac;Data Source=" & "192.168.1.103" & _
+  cnn.Open "Provider=SQLOLEDB.1;Password=" & "123456" & _
+           ";Persist Security Info=False;User ID=" & "sap" & _
+           ";Initial Catalog=BaseImac;Data Source=" & "102.178.6.104" & _
            ";Trusted_Connection=yes"
 
   ''  ' Conectar a la base de datos
